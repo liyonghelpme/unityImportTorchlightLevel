@@ -1,0 +1,518 @@
+{
+    "-1800499071649312290": {
+        "guid": "-1800499071649312290", 
+        "collisionfile": "media/levelsets/mine/mine_wall_diagonal_collision_01.mesh", 
+        "name": "wall_diagonal_01", 
+        "filename": "media/levelsets/mine/mine_wall_diagonal_01.mesh"
+    }, 
+    "248247204003647966": {
+        "guid": "248247204003647966", 
+        "collisionfile": "media/levelsets/mine/mine_fade_transition_collision_09.mesh", 
+        "name": "fade_transition_09", 
+        "filename": "media/levelsets/mine/mine_fade_transition_09.mesh"
+    }, 
+    "5985149757023326686": {
+        "guid": "5985149757023326686", 
+        "collisionfile": "media/levelsets/mine/mine_fade_transition_collision_01.mesh", 
+        "name": "fade_transition_05", 
+        "filename": "media/levelsets/mine/mine_fade_transition_05.mesh"
+    }, 
+    "4868530131862295006": {
+        "guid": "4868530131862295006", 
+        "collisionfile": "media/levelsets/mine/mine_broken_tranwall_collision_02.mesh", 
+        "name": "broken_tranWall_02", 
+        "filename": "media/levelsets/mine/mine_broken_tranwall_02.mesh"
+    }, 
+    "-621115405948284450": {
+        "guid": "-621115405948284450", 
+        "collisionfile": "media/levelsets/mine/mine_floor_blank_collision_01.mesh", 
+        "name": "floor_blank_01", 
+        "filename": "media/levelsets/mine/mine_floor_blank_01_shadow.mesh"
+    }, 
+    "-1664517778537770530": {
+        "guid": "-1664517778537770530", 
+        "collisionfile": "media/levelsets/mine/mine_cap_concave_collision_01.mesh", 
+        "name": "cap_concave_01", 
+        "filename": "media/levelsets/mine/mine_cap_concave_01.mesh"
+    }, 
+    "3400337516626055646": {
+        "guid": "3400337516626055646", 
+        "collisionfile": null, 
+        "name": "web_diagonal", 
+        "filename": "media/levelsets/mine/web_04.mesh"
+    }, 
+    "3683247131011781086": {
+        "guid": "3683247131011781086", 
+        "collisionfile": "media/levelsets/mine/mine_fade_diagonal_collision_01.mesh", 
+        "name": "fade_diagonal_01", 
+        "filename": "media/levelsets/mine/mine_fade_diagonal_01.mesh"
+    }, 
+    "-387695220400057890": {
+        "guid": "-387695220400057890", 
+        "collisionfile": "media/levelsets/mine/mine_fade_transition_collision_03.mesh", 
+        "name": "fade_transition_08", 
+        "filename": "media/levelsets/mine/mine_fade_transition_08.mesh"
+    }, 
+    "4300046181983326686": {
+        "guid": "4300046181983326686", 
+        "collisionfile": "media/levelsets/mine/mine_fade_straight_collision_01.mesh", 
+        "name": "fade_straight_02", 
+        "filename": "media/levelsets/mine/mine_fade_straight_02.mesh"
+    }, 
+    "-674811920122113570": {
+        "guid": "-674811920122113570", 
+        "collisionfile": "media/levelsets/mine/mine_wall_straight_collision_01.mesh", 
+        "name": "broken_fullstraight_01", 
+        "filename": "media/levelsets/mine/mine_broken_fullstraight_01.mesh"
+    }, 
+    "-2300709809257770530": {
+        "guid": "-2300709809257770530", 
+        "collisionfile": "media/levelsets/mine/mine_cap_convex_collision_01.mesh", 
+        "name": "cap_convex_01", 
+        "filename": "media/levelsets/mine/mine_cap_convex_01.mesh"
+    }, 
+    "-6424689964668284450": {
+        "guid": "-6424689964668284450", 
+        "collisionfile": "media/levelsets/mine/mine_half_diagonal_collision_01.mesh", 
+        "name": "half_diagonal_01", 
+        "filename": "media/levelsets/mine/mine_half_diagonal_01.mesh"
+    }, 
+    "6510123128421224926": {
+        "guid": "6510123128421224926", 
+        "collisionfile": null, 
+        "name": "floor_diagonal_05_noshadow", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_05_noshadow.mesh"
+    }, 
+    "-5859874164123495970": {
+        "guid": "-5859874164123495970", 
+        "collisionfile": null, 
+        "name": "web_concave", 
+        "filename": "media/levelsets/mine/web_06.mesh"
+    }, 
+    "6428858103727198686": {
+        "guid": "6428858103727198686", 
+        "collisionfile": "media/levelsets/mine/mine_floor_diagonal_collision_03.mesh", 
+        "name": "floor_diagonal_03", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_03.mesh"
+    }, 
+    "4414343679684907486": {
+        "guid": "4414343679684907486", 
+        "collisionfile": "media/levelsets/mine/mine_wall_straight_collision_01.mesh", 
+        "name": "fade_transition_04", 
+        "filename": "media/levelsets/mine/mine_fade_transition_04.mesh"
+    }, 
+    "3970210448941847006": {
+        "guid": "3970210448941847006", 
+        "collisionfile": null, 
+        "name": "rubble_01", 
+        "filename": "media/levelsets/mine/mine_rubble_01.mesh"
+    }, 
+    "-8137351845081837090": {
+        "guid": "-8137351845081837090", 
+        "collisionfile": "media/levelsets/mine/mine_rubble_collision_04.mesh", 
+        "name": "rubble_04", 
+        "filename": "media/levelsets/mine/mine_rubble_04.mesh"
+    }, 
+    "2097121395137712606": {
+        "guid": "2097121395137712606", 
+        "collisionfile": null, 
+        "name": "floor_diagonal_04_noshadow", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_04_noshadow.mesh"
+    }, 
+    "9047074496787714526": {
+        "guid": "9047074496787714526", 
+        "collisionfile": "media/levelsets/mine/mine_rubble_collision_03.mesh", 
+        "name": "rubble_03", 
+        "filename": "media/levelsets/mine/mine_rubble_03.mesh"
+    }, 
+    "-7179646379437190690": {
+        "guid": "-7179646379437190690", 
+        "collisionfile": null, 
+        "name": "floor_blank_02_noshadow", 
+        "filename": "media/levelsets/mine/mine_floor_blank_02_noshadow.mesh"
+    }, 
+    "-7125696668247256610": {
+        "guid": "-7125696668247256610", 
+        "collisionfile": "media/levelsets/mine/mine_broken_convex_collision_01.mesh", 
+        "name": "broken_convex_01", 
+        "filename": "media/levelsets/mine/mine_broken_convex_01.mesh"
+    }, 
+    "-4589122071657770530": {
+        "guid": "-4589122071657770530", 
+        "collisionfile": "media/levelsets/mine/mine_cap_straight_collision_01.mesh", 
+        "name": "cap_straight_01", 
+        "filename": "media/levelsets/mine/mine_cap_straight_01.mesh"
+    }, 
+    "7635475478447198686": {
+        "guid": "7635475478447198686", 
+        "collisionfile": null, 
+        "name": "floor_diagonal_01_noshadow", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_01_noshadow.mesh"
+    }, 
+    "6349622760342295006": {
+        "guid": "6349622760342295006", 
+        "collisionfile": "media/levelsets/mine/mine_broken_tranhalf_collision_02.mesh", 
+        "name": "broken_tranHalf_02", 
+        "filename": "media/levelsets/mine/mine_broken_tranhalf_02.mesh"
+    }, 
+    "716364253571781086": {
+        "guid": "716364253571781086", 
+        "collisionfile": "media/levelsets/mine/mine_fade_straight_collision_01.mesh", 
+        "name": "fade_straight_01", 
+        "filename": "media/levelsets/mine/mine_fade_straight_01.mesh"
+    }, 
+    "-3621793549723495970": {
+        "guid": "-3621793549723495970", 
+        "collisionfile": null, 
+        "name": "web_straight", 
+        "filename": "media/levelsets/mine/web_08.mesh"
+    }, 
+    "-729972228238798370": {
+        "guid": "-729972228238798370", 
+        "collisionfile": "media/levelsets/mine/mine_quarter_straight_collision_01.mesh", 
+        "name": "quarter_straight_01", 
+        "filename": "media/levelsets/mine/mine_quarter_straight_01.mesh"
+    }, 
+    "-3030854249577770530": {
+        "guid": "-3030854249577770530", 
+        "collisionfile": "media/levelsets/mine/mine_cap_diagonal_collision_01.mesh", 
+        "name": "cap_diagonal_01", 
+        "filename": "media/levelsets/mine/mine_cap_diagonal_01.mesh"
+    }, 
+    "8295826700207198686": {
+        "guid": "8295826700207198686", 
+        "collisionfile": null, 
+        "name": "floor_diagonal_02_noshadow", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_02_noshadow.mesh"
+    }, 
+    "-9217760884348284450": {
+        "guid": "-9217760884348284450", 
+        "collisionfile": "media/levelsets/mine/mine_half_footer_collision_01.mesh", 
+        "name": "half_footer_01", 
+        "filename": "media/levelsets/mine/mine_half_footer_01.mesh"
+    }, 
+    "-46382604887256610": {
+        "guid": "-46382604887256610", 
+        "collisionfile": null, 
+        "name": "black_convex_01", 
+        "filename": "media/levelsets/mine/mine_black_convex_01.mesh"
+    }, 
+    "-1446023807118798370": {
+        "guid": "-1446023807118798370", 
+        "collisionfile": "media/levelsets/mine/mine_trim_concave_collision_01.mesh", 
+        "name": "trim_concave_01", 
+        "filename": "media/levelsets/mine/mine_trim_concave_01.mesh"
+    }, 
+    "-8233255544237190690": {
+        "guid": "-8233255544237190690", 
+        "collisionfile": null, 
+        "name": "box_blank_01_noshadow", 
+        "filename": "media/levelsets/mine/mine_box_blank_01_noshadow.mesh"
+    }, 
+    "-7809535992407256610": {
+        "guid": "-7809535992407256610", 
+        "collisionfile": "media/levelsets/mine/mine_broken_diagonal_collision_02.mesh", 
+        "name": "broken_diagonal_02", 
+        "filename": "media/levelsets/mine/mine_broken_diagonal_02.mesh"
+    }, 
+    "4244495710447669726": {
+        "guid": "4244495710447669726", 
+        "collisionfile": "media/levelsets/mine/mine_wall_straight_collision_01.mesh", 
+        "name": "wall_straight_01", 
+        "filename": "media/levelsets/mine/mine_wall_straight_01.mesh"
+    }, 
+    "8469591774102295006": {
+        "guid": "8469591774102295006", 
+        "collisionfile": "media/levelsets/mine/mine_broken_straight_collision_01.mesh", 
+        "name": "broken_straight_01", 
+        "filename": "media/levelsets/mine/mine_broken_straight_01.mesh"
+    }, 
+    "4445603826051781086": {
+        "guid": "4445603826051781086", 
+        "collisionfile": "media/levelsets/mine/mine_black_convex_collision_01.mesh", 
+        "name": "fade_convex_01", 
+        "filename": "media/levelsets/mine/mine_fade_convex_01.mesh"
+    }, 
+    "5762688206381847006": {
+        "guid": "5762688206381847006", 
+        "collisionfile": null, 
+        "name": "rubble_02", 
+        "filename": "media/levelsets/mine/mine_rubble_02.mesh"
+    }, 
+    "-4969910255758798370": {
+        "guid": "-4969910255758798370", 
+        "collisionfile": "media/levelsets/mine/mine_trim_convex_collision_01.mesh", 
+        "name": "trim_convex_01", 
+        "filename": "media/levelsets/mine/mine_trim_convex_01.mesh"
+    }, 
+    "3624519139777712606": {
+        "guid": "3624519139777712606", 
+        "collisionfile": "media/levelsets/mine/mine_free_footer_collision_02.mesh", 
+        "name": "free_footer_02", 
+        "filename": "media/levelsets/mine/mine_free_footer_02.mesh"
+    }, 
+    "-7640843042958798370": {
+        "guid": "-7640843042958798370", 
+        "collisionfile": "media/levelsets/mine/mine_trim_diagonal_collision_01.mesh", 
+        "name": "trim_diagonal_01", 
+        "filename": "media/levelsets/mine/mine_trim_diagonal_01.mesh"
+    }, 
+    "-4639594182268284450": {
+        "guid": "-4639594182268284450", 
+        "collisionfile": "media/levelsets/mine/mine_half_concave_collision_01.mesh", 
+        "name": "half_concave_01", 
+        "filename": "media/levelsets/mine/mine_half_concave_01.mesh"
+    }, 
+    "-1520492844720057890": {
+        "guid": "-1520492844720057890", 
+        "collisionfile": "media/levelsets/mine/mine_fade_transition_collision_01.mesh", 
+        "name": "fade_transition_07", 
+        "filename": "media/levelsets/mine/mine_fade_transition_07.mesh"
+    }, 
+    "7454162794278293982": {
+        "guid": "7454162794278293982", 
+        "collisionfile": "media/levelsets/mine/mine_fade_transition_collision_03.mesh", 
+        "name": "fade_transition_06", 
+        "filename": "media/levelsets/mine/mine_fade_transition_06.mesh"
+    }, 
+    "-8478281399867076130": {
+        "guid": "-8478281399867076130", 
+        "collisionfile": "media/levelsets/mine/mine_entry_collision_01.mesh", 
+        "name": "entry_01", 
+        "filename": "media/levelsets/mine/mine_entry_01.mesh"
+    }, 
+    "4544441202607198686": {
+        "guid": "4544441202607198686", 
+        "collisionfile": "media/levelsets/mine/mine_floor_diagonal_collision_01.mesh", 
+        "name": "floor_diagonal_01", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_01.mesh"
+    }, 
+    "5779244300207198686": {
+        "guid": "5779244300207198686", 
+        "collisionfile": "media/levelsets/mine/mine_floor_diagonal_collision_02.mesh", 
+        "name": "floor_diagonal_02", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_02.mesh"
+    }, 
+    "8043560670821224926": {
+        "guid": "8043560670821224926", 
+        "collisionfile": "media/levelsets/mine/mine_column_free_collision_02.mesh", 
+        "name": "column_free_02", 
+        "filename": "media/levelsets/mine/mine_column_free_02.mesh"
+    }, 
+    "-8046570744937770530": {
+        "guid": "-8046570744937770530", 
+        "collisionfile": "media/levelsets/mine/mine_fade_concave_collision_01.mesh", 
+        "name": "fade_concave_01", 
+        "filename": "media/levelsets/mine/mine_fade_concave_01.mesh"
+    }, 
+    "6951636154287198686": {
+        "guid": "6951636154287198686", 
+        "collisionfile": "media/levelsets/mine/mine_floor_diagonal_collision_04.mesh", 
+        "name": "floor_diagonal_04", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_04.mesh"
+    }, 
+    "1399392026481267166": {
+        "guid": "1399392026481267166", 
+        "collisionfile": "media/levelsets/mine/mine_quarter_convex_collision_01.mesh", 
+        "name": "quarter_convex_01", 
+        "filename": "media/levelsets/mine/mine_quarter_convex_01.mesh"
+    }, 
+    "198283823491781086": {
+        "guid": "198283823491781086", 
+        "collisionfile": null, 
+        "name": "floor_blank_01_noshadow", 
+        "filename": "media/levelsets/mine/mine_floor_blank_01_noshadow.mesh"
+    }, 
+    "3439782417302295006": {
+        "guid": "3439782417302295006", 
+        "collisionfile": "media/levelsets/mine/mine_broken_tranwall_collision_01.mesh", 
+        "name": "broken_tranWall_01", 
+        "filename": "media/levelsets/mine/mine_broken_tranwall_01.mesh"
+    }, 
+    "-3556484751021108770": {
+        "guid": "-3556484751021108770", 
+        "collisionfile": "media/levelsets/mine/mine_rubble_collision_generic.mesh", 
+        "name": "rubble_all", 
+        "filename": "media/levelsets/mine/mine_rubble_08.mesh"
+    }, 
+    "3012597428137628126": {
+        "guid": "3012597428137628126", 
+        "collisionfile": null, 
+        "name": "black_half_convex_01", 
+        "filename": "media/levelsets/mine/mine_black_half_convex_01.mesh"
+    }, 
+    "-7068307637266869794": {
+        "guid": "-7068307637266869794", 
+        "collisionfile": null, 
+        "name": "rubble_07", 
+        "filename": "media/levelsets/mine/mine_rubble_07.mesh"
+    }, 
+    "2625892454084907486": {
+        "guid": "2625892454084907486", 
+        "collisionfile": "media/levelsets/mine/mine_fade_transition_collision_03.mesh", 
+        "name": "fade_transition_03", 
+        "filename": "media/levelsets/mine/mine_fade_transition_03.mesh"
+    }, 
+    "-8730269606487256610": {
+        "guid": "-8730269606487256610", 
+        "collisionfile": "media/levelsets/mine/mine_broken_diagonal_collision_01.mesh", 
+        "name": "broken_diagonal_01", 
+        "filename": "media/levelsets/mine/mine_broken_diagonal_01.mesh"
+    }, 
+    "3930597913950753246": {
+        "guid": "3930597913950753246", 
+        "collisionfile": "media/levelsets/mine/mine_trim_straight_collision_01.mesh", 
+        "name": "trim_straight_01", 
+        "filename": "media/levelsets/mine/mine_trim_straight_02.mesh"
+    }, 
+    "8206823501737628126": {
+        "guid": "8206823501737628126", 
+        "collisionfile": null, 
+        "name": "black_quarter_convex_01", 
+        "filename": "media/levelsets/mine/mine_black_quarter_convex_01.mesh"
+    }, 
+    "6531755787821847006": {
+        "guid": "6531755787821847006", 
+        "collisionfile": null, 
+        "name": "puddle_01", 
+        "filename": "media/levelsets/mine/mine_puddle_01.mesh"
+    }, 
+    "6885822583702295006": {
+        "guid": "6885822583702295006", 
+        "collisionfile": "media/levelsets/mine/mine_broken_trancap_collision_01.mesh", 
+        "name": "broken_tranCap_01", 
+        "filename": "media/levelsets/mine/mine_broken_trancap_01.mesh"
+    }, 
+    "7998487548822295006": {
+        "guid": "7998487548822295006", 
+        "collisionfile": "media/levelsets/mine/mine_broken_trancap_collision_02.mesh", 
+        "name": "broken_tranCap_02", 
+        "filename": "media/levelsets/mine/mine_broken_trancap_02.mesh"
+    }, 
+    "-9106062262545542690": {
+        "guid": "-9106062262545542690", 
+        "collisionfile": "media/levelsets/mine/mine_quarter_stair_collision_01.mesh", 
+        "name": "quarter_stair_01", 
+        "filename": "media/levelsets/mine/mine_quarter_stair_01.mesh"
+    }, 
+    "-6226091398361837090": {
+        "guid": "-6226091398361837090", 
+        "collisionfile": "media/levelsets/mine/mine_rubble_collision_08.mesh", 
+        "name": "rubble_08", 
+        "filename": "media/levelsets/mine/mine_rubble_08.mesh"
+    }, 
+    "-700694028887256610": {
+        "guid": "-700694028887256610", 
+        "collisionfile": "media/levelsets/mine/mine_broken_concave_collision_01.mesh", 
+        "name": "broken_concave_01", 
+        "filename": "media/levelsets/mine/mine_broken_concave_01.mesh"
+    }, 
+    "-7068307641561837090": {
+        "guid": "-7068307641561837090", 
+        "collisionfile": null, 
+        "name": "rubble_06", 
+        "filename": "media/levelsets/mine/mine_rubble_06.mesh"
+    }, 
+    "5410098664342295006": {
+        "guid": "5410098664342295006", 
+        "collisionfile": "media/levelsets/mine/mine_broken_tranhalf_collision_01.mesh", 
+        "name": "broken_tranHalf_01", 
+        "filename": "media/levelsets/mine/mine_broken_tranhalf_01.mesh"
+    }, 
+    "-181162183329312290": {
+        "guid": "-181162183329312290", 
+        "collisionfile": "media/levelsets/mine/mine_wall_concave_collision_01.mesh", 
+        "name": "wall_concave_01", 
+        "filename": "media/levelsets/mine/mine_wall_concave_01.mesh"
+    }, 
+    "608849608561267166": {
+        "guid": "608849608561267166", 
+        "collisionfile": "media/levelsets/mine/mine_quarter_diagonal_collision_01.mesh", 
+        "name": "quarter_diagonal_01", 
+        "filename": "media/levelsets/mine/mine_quarter_diagonal_01.mesh"
+    }, 
+    "1398493132963647966": {
+        "guid": "1398493132963647966", 
+        "collisionfile": "media/levelsets/mine/mine_fade_transition_collision_10.mesh", 
+        "name": "fade_transition_10", 
+        "filename": "media/levelsets/mine/mine_fade_transition_10.mesh"
+    }, 
+    "-3920187160188284450": {
+        "guid": "-3920187160188284450", 
+        "collisionfile": "media/levelsets/mine/mine_free_footer_collision_01.mesh", 
+        "name": "free_footer_01", 
+        "filename": "media/levelsets/mine/mine_free_footer_01.mesh"
+    }, 
+    "-7710027527211839010": {
+        "guid": "-7710027527211839010", 
+        "collisionfile": "media/levelsets/mine/mine_wall_straight_collision_01.mesh", 
+        "name": "fade_transition_02", 
+        "filename": "media/levelsets/mine/mine_fade_transition_02.mesh"
+    }, 
+    "-9208755806807256610": {
+        "guid": "-9208755806807256610", 
+        "collisionfile": "media/levelsets/mine/mine_broken_straight_collision_02.mesh", 
+        "name": "broken_straight_02", 
+        "filename": "media/levelsets/mine/mine_broken_straight_02.mesh"
+    }, 
+    "-5820569726057770530": {
+        "guid": "-5820569726057770530", 
+        "collisionfile": "media/levelsets/mine/mine_column_free_collision_01.mesh", 
+        "name": "column_free_01", 
+        "filename": "media/levelsets/mine/mine_column_free_01.mesh"
+    }, 
+    "3501241646961267166": {
+        "guid": "3501241646961267166", 
+        "collisionfile": "media/levelsets/mine/mine_half_straight_collision_01.mesh", 
+        "name": "half_straight_01", 
+        "filename": "media/levelsets/mine/mine_half_straight_01.mesh"
+    }, 
+    "8232213742017712606": {
+        "guid": "8232213742017712606", 
+        "collisionfile": "media/levelsets/mine/mine_fade_transition_collision_01.mesh", 
+        "name": "fade_transition_01", 
+        "filename": "media/levelsets/mine/mine_fade_transition_01.mesh"
+    }, 
+    "2155037835121267166": {
+        "guid": "2155037835121267166", 
+        "collisionfile": "media/levelsets/mine/mine_quarter_concave_collision_01.mesh", 
+        "name": "quarter_concave_01", 
+        "filename": "media/levelsets/mine/mine_quarter_concave_01.mesh"
+    }, 
+    "-7953180185779826210": {
+        "guid": "-7953180185779826210", 
+        "collisionfile": "media/levelsets/mine/mine_wall_footer_collision_01.mesh", 
+        "name": "wall_footer_01", 
+        "filename": "media/levelsets/mine/mine_wall_footer_01.mesh"
+    }, 
+    "-7591085692121837090": {
+        "guid": "-7591085692121837090", 
+        "collisionfile": "media/levelsets/mine/mine_rubble_collision_05.mesh", 
+        "name": "rubble_05", 
+        "filename": "media/levelsets/mine/mine_rubble_05.mesh"
+    }, 
+    "-791852845729312290": {
+        "guid": "-791852845729312290", 
+        "collisionfile": "media/levelsets/mine/mine_wall_convex_collision_01.mesh", 
+        "name": "wall_convex_01", 
+        "filename": "media/levelsets/mine/mine_wall_convex_01.mesh"
+    }, 
+    "-8587280842302352930": {
+        "guid": "-8587280842302352930", 
+        "collisionfile": null, 
+        "name": "floor_diagonal_03_noshadow", 
+        "filename": "media/levelsets/mine/mine_floor_diagonal_03_noshadow.mesh"
+    }, 
+    "-5279141656188284450": {
+        "guid": "-5279141656188284450", 
+        "collisionfile": "media/levelsets/mine/mine_half_convex_collision_01.mesh", 
+        "name": "half_convex_01", 
+        "filename": "media/levelsets/mine/mine_half_convex_01.mesh"
+    }, 
+    "8614830097589670366": {
+        "guid": "8614830097589670366", 
+        "collisionfile": "media/levelsets/mine/mine_exit_collision_01.mesh", 
+        "name": "exit_01", 
+        "filename": "media/levelsets/mine/mine_exit_01.mesh"
+    }
+}
