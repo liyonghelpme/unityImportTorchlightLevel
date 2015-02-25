@@ -10,6 +10,7 @@
 			LOD 200
 			Blend SrcAlpha OneMinusSrcAlpha
 			zwrite on
+			ztest on
 			Lighting off
 			
 			CGPROGRAM

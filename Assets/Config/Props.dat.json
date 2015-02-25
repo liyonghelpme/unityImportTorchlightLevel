@@ -1,0 +1,176 @@
+{
+    "-8756846886523629090": {
+        "guid": "-8756846886523629090", 
+        "collisionfile": null, 
+        "name": "TorchSlim", 
+        "filename": "media/levelsets/props/wall_torch/wall_torch.mesh"
+    }, 
+    "-8756846697545068066": {
+        "guid": "-8756846697545068066", 
+        "collisionfile": null, 
+        "name": "Fog", 
+        "filename": "media/levelsets/props/fog/fogwallconcave.mesh"
+    }, 
+    "-7020516000883273250": {
+        "guid": "-7020516000883273250", 
+        "collisionfile": "media/levelsets/props/waygate/waygate_collision.mesh", 
+        "name": "waygate_fortress", 
+        "filename": "media/levelsets/props/waygate/waygate_fortress.mesh"
+    }, 
+    "-8756846714724937250": {
+        "guid": "-8756846714724937250", 
+        "collisionfile": null, 
+        "name": "Fog", 
+        "filename": "media/levelsets/props/fog/fogwall.mesh"
+    }, 
+    "-5442418487719292450": {
+        "guid": "-5442418487719292450", 
+        "collisionfile": "media/models/shrines/health_shrine/collider.mesh", 
+        "name": "Shrine", 
+        "filename": "media/models/shrines/health_shrine/shrine_base.mesh"
+    }, 
+    "-8756846809214217762": {
+        "guid": "-8756846809214217762", 
+        "collisionfile": null, 
+        "name": "Cobwebs", 
+        "filename": "media/levelsets/props/cobwebs/cobweb1.mesh"
+    }, 
+    "-8756846783444413986": {
+        "guid": "-8756846783444413986", 
+        "collisionfile": null, 
+        "name": "Cobwebs", 
+        "filename": "media/levelsets/props/cobwebs/cobweb4.mesh"
+    }, 
+    "-8756846706135002658": {
+        "guid": "-8756846706135002658", 
+        "collisionfile": null, 
+        "name": "Fog", 
+        "filename": "media/levelsets/props/fog/fogwallconvex.mesh"
+    }, 
+    "-8756846869343759906": {
+        "guid": "-8756846869343759906", 
+        "collisionfile": "media/levelsets/props/table/table_collision.mesh", 
+        "name": "Wooden", 
+        "filename": "media/levelsets/props/table/table.mesh"
+    }, 
+    "-8756846731904806434": {
+        "guid": "-8756846731904806434", 
+        "collisionfile": "media/levelsets/props/candelabra_02/candelabra_02_collision.mesh", 
+        "name": "candelabra_02", 
+        "filename": "media/levelsets/props/candelabra_02/candelabra_02.mesh"
+    }, 
+    "-8756846817804152354": {
+        "guid": "-8756846817804152354", 
+        "collisionfile": "media/levelsets/props/chair/chair_collision.mesh", 
+        "name": "chair", 
+        "filename": "media/levelsets/props/chair/chair.mesh"
+    }, 
+    "-8756846895113563682": {
+        "guid": "-8756846895113563682", 
+        "collisionfile": null, 
+        "name": "Torch", 
+        "filename": "media/levelsets/props/walltorch.mesh"
+    }, 
+    "-8756846852163890722": {
+        "guid": "-8756846852163890722", 
+        "collisionfile": null, 
+        "name": "Rubble", 
+        "filename": "media/levelsets/props/floor_rubble/floor_peice2.mesh"
+    }, 
+    "-8756846843573956130": {
+        "guid": "-8756846843573956130", 
+        "collisionfile": null, 
+        "name": "Rubble", 
+        "filename": "media/levelsets/props/floor_rubble/floor_peice3.mesh"
+    }, 
+    "-8756846800624283170": {
+        "guid": "-8756846800624283170", 
+        "collisionfile": null, 
+        "name": "Cobwebs", 
+        "filename": "media/levelsets/props/cobwebs/cobweb2.mesh"
+    }, 
+    "-8756846826394086946": {
+        "guid": "-8756846826394086946", 
+        "collisionfile": "media/levelsets/props/candleabra_01/candelabra_01_collision.mesh", 
+        "name": "candleabra", 
+        "filename": "media/levelsets/props/candleabra_01/candelabra_01.mesh"
+    }, 
+    "-8756846723314871842": {
+        "guid": "-8756846723314871842", 
+        "collisionfile": null, 
+        "name": "Fog", 
+        "filename": "media/levelsets/props/fog/fog.mesh"
+    }, 
+    "3703308779293708766": {
+        "guid": "3703308779293708766", 
+        "collisionfile": "media/levelsets/props/waygate/waygate_collision.mesh", 
+        "name": "waygate_lava", 
+        "filename": "media/levelsets/props/waygate/waygate_lava.mesh"
+    }, 
+    "-8756846877933694498": {
+        "guid": "-8756846877933694498", 
+        "collisionfile": "media/levelsets/props/brazier_med/brazier_med_collision.mesh", 
+        "name": "Brazier", 
+        "filename": "media/levelsets/props/brazier_med/brazier_med.mesh"
+    }, 
+    "-8756846749084675618": {
+        "guid": "-8756846749084675618", 
+        "collisionfile": "media/levelsets/props/braizer_short/brazier_short_collision.mesh", 
+        "name": "Brazier", 
+        "filename": "media/levelsets/props/braizer_short/braizer_short.mesh"
+    }, 
+    "-8756846792034348578": {
+        "guid": "-8756846792034348578", 
+        "collisionfile": null, 
+        "name": "Cobwebs", 
+        "filename": "media/levelsets/props/cobwebs/cobweb3.mesh"
+    }, 
+    "-8756846740494741026": {
+        "guid": "-8756846740494741026", 
+        "collisionfile": "media/levelsets/props/braizer_tall/braizer_tall_collision.mesh", 
+        "name": "Brazier", 
+        "filename": "media/levelsets/props/braizer_tall/braizer_tall.mesh"
+    }, 
+    "-8756846766264544802": {
+        "guid": "-8756846766264544802", 
+        "collisionfile": null, 
+        "name": "Carpet", 
+        "filename": "media/levelsets/props/carpet/carpet_shadow.mesh"
+    }, 
+    "8486639720628687326": {
+        "guid": "8486639720628687326", 
+        "collisionfile": "media/levelsets/props/waygate/waygate_collision.mesh", 
+        "name": "waygate", 
+        "filename": "media/levelsets/props/waygate/waygate.mesh"
+    }, 
+    "-8756846688955133474": {
+        "guid": "-8756846688955133474", 
+        "collisionfile": null, 
+        "name": "Fog", 
+        "filename": "media/levelsets/props/fog/fogwalldiagonal.mesh"
+    }, 
+    "-8756846757674610210": {
+        "guid": "-8756846757674610210", 
+        "collisionfile": null, 
+        "name": "carpet_noshadow", 
+        "filename": "media/levelsets/props/carpet/carpet.mesh"
+    }, 
+    "-8756846774854479394": {
+        "guid": "-8756846774854479394", 
+        "collisionfile": null, 
+        "name": "Cobwebs", 
+        "filename": "media/levelsets/props/cobwebs/cobweb5.mesh"
+    }, 
+    "-8756846834984021538": {
+        "guid": "-8756846834984021538", 
+        "collisionfile": null, 
+        "name": "Rubble", 
+        "filename": "media/levelsets/props/floor_rubble/floor_peice4.mesh"
+    }, 
+    "-8756846860753825314": {
+        "guid": "-8756846860753825314", 
+        "collisionfile": null, 
+        "name": "Rubble", 
+        "filename": "media/levelsets/props/floor_rubble/floor_peice1.mesh"
+    }
+}
