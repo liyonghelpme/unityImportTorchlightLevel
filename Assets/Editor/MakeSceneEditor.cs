@@ -5,6 +5,19 @@ using SimpleJSON;
 using System.IO;
 using System.Collections.Generic;
 
+
+public class LevelConfig {
+    public string room;
+    public int x;
+    public int y;
+
+    public LevelConfig(string r, int x1, int y1) {
+        room = r;
+        x = x1;
+        y = y1;
+    }
+}
+
 [CustomEditor(typeof(MakeScene))]
 public class MakeSceneEditor : Editor
 {
@@ -270,6 +283,36 @@ public class MakeSceneEditor : Editor
             }
             Debug.Log("notFind:" + notFindCount);
             Debug.Log("allPieces:" + allPieces);
+        }
+        if(GUILayout.Button("导出Scene中的root为room Prefab")) {
+            var root = GameObject.Find("root");
+            if(root != null) {
+                var path = EditorApplication.currentScene.Split(char.Parse("/"));
+                var sceneName = path[path.Length-1];
+                PrefabUtility.CreatePrefab(Path.Combine("Assets/room", sceneName.Replace(".unity", ".prefab")), root);
+
+            }
+        }
+
+        if(GUILayout.Button("根据配置文件构建关卡")) {
+            var config = new List<LevelConfig>(){
+                new LevelConfig("ENTRANCE_S", -1, 3),
+                new LevelConfig("NS", -1, 2),
+                new LevelConfig("NS", -1, 1),
+                new LevelConfig("NE", -1, 0),
+                new LevelConfig("EW", 0, 0),
+                new LevelConfig("NW", 1, 0),
+                new LevelConfig("NS", 1, 1),
+                new LevelConfig("Exit_S", 1, 2),
+            };
+
+            //var load = Resources.LoadAssetAtPath("Assets/scenes/1X1_NS.unity", typeof(UnityEngine.SceneAsset));
+            //Debug.Log("load scene is "+load);
+
+            foreach(LevelConfig lc in config) {
+
+
+            }
         }
     }
 }
