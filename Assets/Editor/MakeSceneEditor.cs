@@ -295,6 +295,18 @@ public class MakeSceneEditor : Editor
         }
 
         if(GUILayout.Button("根据配置文件构建关卡")) {
+            var r = GameObject.Find("root");
+            if (r != null)
+            {
+                GameObject.DestroyImmediate(r);
+            }
+            
+            var root = new GameObject("root");
+            root.transform.localPosition = Vector3.zero;
+            root.transform.localRotation = Quaternion.identity;
+            root.transform.localScale = Vector3.one;
+
+
             var config = new List<LevelConfig>(){
                 new LevelConfig("ENTRANCE_S", -1, 3),
                 new LevelConfig("NS", -1, 2),
@@ -308,11 +320,58 @@ public class MakeSceneEditor : Editor
 
             //var load = Resources.LoadAssetAtPath("Assets/scenes/1X1_NS.unity", typeof(UnityEngine.SceneAsset));
             //Debug.Log("load scene is "+load);
+            var roomPath = Path.Combine(Application.dataPath, "room");
+            var resDir = new DirectoryInfo(roomPath);
+            FileInfo[] fileInfo = resDir.GetFiles("*.prefab", SearchOption.AllDirectories); 
+            List<GameObject> nameToGameObject = new List<GameObject>();
 
+            foreach(FileInfo f in fileInfo) {
+                Debug.Log("fileName "+f.FullName);
+                Debug.Log("DataPath "+Application.dataPath);
+                var pa = f.FullName.Replace(Application.dataPath, "Assets");
+
+                var pre = Resources.LoadAssetAtPath<GameObject>(pa);
+
+                nameToGameObject.Add(pre);
+            }
+            Debug.Log("prefab num "+nameToGameObject.Count);
             foreach(LevelConfig lc in config) {
-
-
+                var namePart = lc.room.ToLower().Split(char.Parse("_"));
+                bool gotPrefab = false;
+                GameObject insPrefab = null;
+                foreach(GameObject g in nameToGameObject) {
+                    var prefabElement = g.name.ToLower().Split(char.Parse("_"));
+                    bool find = true;
+                    foreach(string n in namePart) {
+                        if(!checkIn(n, prefabElement)) {
+                            find = false;
+                            break;
+                        }
+                    }
+                    if(find) {
+                        insPrefab = g;
+                        gotPrefab = true;
+                        Debug.Log("find part "+lc.room+" "+g.name);
+                        break;
+                    }
+                }
+                if(!gotPrefab) {
+                    Debug.Log("not find "+lc.room);
+                }else {
+                    var newG = GameObject.Instantiate(insPrefab) as GameObject;
+                    newG.transform.parent = root.transform;
+                    newG.transform.localPosition = new Vector3(lc.x*96, 0, lc.y*96+48);
+                    newG.transform.localScale = Vector3.one;
+                    newG.transform.localRotation = Quaternion.identity;
+                }
             }
         }
+    }
+    bool checkIn(string s, string[] group) {
+        foreach(string s1 in group) {
+            if(s == s1) 
+                return true;
+        }
+        return false;
     }
 }

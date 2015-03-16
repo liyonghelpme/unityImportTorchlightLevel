@@ -1,4 +1,4 @@
-﻿Shader "Custom/lightMapAlphaWithDepth" {
+﻿  Shader "Custom/lightMapAlphaWithDepth" {
 	//mine stair
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
