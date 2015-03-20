@@ -35,7 +35,8 @@
 			uniform sampler2D _LightMap;
 		    uniform float4 _CamPos;
 		    uniform float _CameraSize;
-		    
+		    uniform float4 _AmbientCol;
+		     
 			v2f vert(VertIn v) 
 			{
 				v2f o;
@@ -46,13 +47,15 @@
 			}
 			
 			fixed4 frag(v2f i) : Color {
-	        	fixed4 tex =  tex2D(_MainTex, i.uv);
-	        	fixed4 col;
+	        	fixed4 col =  tex2D(_MainTex, i.uv);
+	        	fixed4 retCol;
 	        	//fixed4 lightCol =  tex2D(_LightMap, (i.offPos.xz+float2(_CameraSize, _CameraSize))/(2*_CameraSize));
 	        	
-	        	col.rgb = tex.rgb;
-	        	col.a = tex.a;
-				return col;
+	        	retCol.rgb = col.rgb*((_AmbientCol).rgb+tex2D(_LightMap, (i.offPos.xz+float2(_CameraSize, _CameraSize))/(2*_CameraSize)).rgb*2 );
+	        	
+	        	//col.rgb = tex.rgb;
+	        	retCol.a = col.a;
+				return retCol;
 			}	
 			
 

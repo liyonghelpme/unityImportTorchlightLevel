@@ -23,6 +23,9 @@ public class MakeSceneEditor : Editor
 {
     string dir = "";
     string layoutStr = "";
+    string modelStr = "";
+    string lightStr = "";
+
     public override void OnInspectorGUI()
     {
         MakeScene.makeScene = target as MakeScene;
@@ -139,6 +142,7 @@ public class MakeSceneEditor : Editor
 
         if (GUILayout.Button("组合场景"))
         {
+
             var md = Resources.LoadAssetAtPath("Assets/Config/Mine.dat.json", typeof(TextAsset)) as TextAsset;
             var jobj = JSON.Parse(md.text).AsObject;
             /*
@@ -366,6 +370,102 @@ public class MakeSceneEditor : Editor
                 }
             }
         }
+
+
+        modelStr = GUILayout.TextField(modelStr);
+        if (GUILayout.Button("导入无动画模型"))
+        {
+            
+            
+            Debug.Log(Application.dataPath);
+            
+            var allModel = Path.Combine(Application.dataPath, modelStr);
+            var resDir = new DirectoryInfo(allModel);
+            FileInfo[] fileInfo = resDir.GetFiles("*.fbx", SearchOption.AllDirectories);
+            AssetDatabase.StartAssetEditing();
+            foreach(FileInfo file in fileInfo) {
+                Debug.Log("file is "+file.Name+" "+file.Name);
+                
+                var ass = Path.Combine("Assets/"+modelStr, file.Name);
+                var import = ModelImporter.GetAtPath(ass) as ModelImporter;
+                Debug.Log("import is " + import);
+                import.globalScale = 1;
+                import.importAnimation = false;
+                import.animationType = ModelImporterAnimationType.None;
+                
+                Debug.Log("import change state "+import);
+                AssetDatabase.WriteImportSettingsIfDirty(ass);
+            }
+            AssetDatabase.StopAssetEditing();
+            AssetDatabase.Refresh();
+        }
+
+        if(GUILayout.Button("设置shader 为Custom/light")) {
+            Debug.Log(Application.dataPath);
+            
+            var allModel = Path.Combine(Application.dataPath, modelStr);
+            var resDir = new DirectoryInfo(allModel);
+            FileInfo[] fileInfo = resDir.GetFiles("*.fbx", SearchOption.AllDirectories);
+            AssetDatabase.StartAssetEditing();
+            foreach(FileInfo file in fileInfo) {
+                Debug.Log("file is "+file.Name+" "+file.Name);
+                
+                var ass = Path.Combine("Assets/"+modelStr, file.Name);
+                var res = Resources.LoadAssetAtPath<GameObject>(ass);
+                res.renderer.sharedMaterial.shader = Shader.Find("Custom/light");
+                EditorUtility.SetDirty(res.renderer.sharedMaterial);
+
+                Debug.Log("import change state ");
+                AssetDatabase.WriteImportSettingsIfDirty(ass);
+            }
+            AssetDatabase.StopAssetEditing();
+            AssetDatabase.Refresh();
+
+        }
+        if(GUILayout.Button("调整prefab的layer属性")) {
+            var allModel = Path.Combine(Application.dataPath, modelStr);
+            var resDir = new DirectoryInfo(allModel);
+       
+            FileInfo[] fileInfo = resDir.GetFiles("*.fbx", SearchOption.AllDirectories);
+            //AssetDatabase.StartAssetEditing();
+            foreach(FileInfo file in fileInfo) {
+                var ass = Path.Combine("Assets/"+modelStr, file.Name);
+                var res = Resources.LoadAssetAtPath<GameObject>(ass);
+                var tar = Path.Combine("Assets/lightPrefab", file.Name.Replace(".fbx", ".prefab"));
+                var tg = PrefabUtility.CreatePrefab(tar, res);
+                tg.layer =  8;
+
+
+            }
+            //AssetDatabase.StopAssetEditing();
+            //AssetDatabase.Refresh();
+        }
+
+        lightStr = GUILayout.TextField(lightStr);
+        if(GUILayout.Button("读取生成所有的light位置")) {
+            GameObject lightObj = GameObject.Find("light");
+            if(lightObj != null) {
+                GameObject.DestroyImmediate(lightObj);
+            }
+            lightObj = new GameObject("light");
+
+            var light = Resources.LoadAssetAtPath("Assets/Config/"+lightStr+".json", typeof(TextAsset)) as TextAsset;
+            var larr = JSON.Parse(light.text) as JSONArray;
+            foreach(JSONNode n in larr) {
+                var ln = Path.GetFileName(n["FILE"].Value);
+                Debug.Log("light file name "+ln);
+                var pb = "Assets/lightPrefab/"+ln.Replace(".MESH", ".prefab");
+                var lobj = Resources.LoadAssetAtPath(pb, typeof(GameObject)) as GameObject;
+                var copyobj = GameObject.Instantiate(lobj) as GameObject;
+                copyobj.transform.parent = lightObj.transform;
+                copyobj.transform.localPosition = new Vector3(-n["POSITIONX"].AsFloat, n["POSITIONY"].AsFloat, n["POSITIONZ"].AsFloat);
+                copyobj.transform.localScale = new Vector3(n["SCALE X"].AsFloat, n["SCALE Z"].AsFloat, 1);
+                var rot = Quaternion.Euler(new Vector3(0, n["ANGLE"].AsFloat, 0));
+                copyobj.transform.localRotation = rot*Quaternion.Euler(new Vector3(-90, 0, 0));
+
+            }
+        }
+
     }
     bool checkIn(string s, string[] group) {
         foreach(string s1 in group) {

@@ -27,24 +27,33 @@
 			struct v2f {
 	        	fixed4 pos : SV_POSITION;
 	        	fixed2 uv : TEXCOORD0;
+	        	fixed3 offPos : TEXCOORD2;
+	        	
 	        };
 			uniform sampler2D _MainTex;
 			
+			uniform sampler2D _LightMap;
+		    uniform float4 _CamPos;
+		    uniform float _CameraSize;
+		    uniform float4 _AmbientCol;
+		     
 			v2f vert(VertIn v) 
 			{
 				v2f o;
 				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
 				o.uv = MultiplyUV(UNITY_MATRIX_TEXTURE0, v.texcoord);
 				
+				o.offPos = mul(_Object2World, v.vertex).xyz-(_WorldSpaceCameraPos+_CamPos);
 				return o;
 			}
 			
 			fixed4 frag(v2f i) : Color {
-	        	fixed4 tex =  tex2D(_MainTex, i.uv);
-	        	fixed4 col;
-	        	col.rgb = tex.rgb;
-	        	col.a = tex.a;
-				return col;
+	        	fixed4 col =  tex2D(_MainTex, i.uv);
+	        	fixed4 retCol;
+	        	//col.rgb = tex.rgb;
+	        	retCol.rgb = col.rgb*((_AmbientCol).rgb+tex2D(_LightMap, (i.offPos.xz+float2(_CameraSize, _CameraSize))/(2*_CameraSize)).rgb*2 );
+	        	retCol.a = col.a;
+				return retCol;
 			}	
 			
 
